@@ -1,0 +1,20 @@
+h2{
+    margin: 20px 50px;
+    font-family: 'Lucida Sans';
+    color: #28282B;
+}
+
+.app-container{
+    margin: 20px 50px;
+    padding: 10px 20px;
+}
+
+.app-highlight{
+    border: #28282B 3px solid;
+    background-color: gold;
+}
+
+.appFont{
+    font-family: 'Lucida Sans';
+    font-size: 18px;
+}

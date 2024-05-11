@@ -1,0 +1,40 @@
+<h2>Custom-Class & Style Directive</h2>
+<div [appClass]="{ 'app-container': true, appHighlight: true, appFont: 5 > 2 }">
+  <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+    laudantium molestiae incidunt praesentium sed tenetur ab quam magni
+    perspiciatis minima reiciendis rerum cum quidem, commodi possimus suscipit
+    ipsum dicta nam.
+  </p>
+</div>
+
+<div class="app-container" appStyle [style]="{backgroundColor: 'red', color: 'white'}">
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti ratione
+    quidem aperiam quisquam dolorem quaerat! Exercitationem dignissimos
+    aspernatur magni possimus, quisquam blanditiis nihil quos deleniti autem
+    dolorem alias rem dolore!
+  </p>
+</div>
+
+<!-- <div appClass [display]="{'app-container': true, appHighlight: true, appFont: 5 > 2}"> 
+  
+[ngStyle]="{backgroundColor: active ? 'green': 'red', color: active ? 'white': 'black'}"-->
+
+<!-- 
+<div [ngClass]="{appHighlight: 10 > 7, 'app-container': true}">
+  <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis laudantium molestiae incidunt
+     praesentium sed tenetur ab quam magni perspiciatis minima reiciendis rerum cum quidem, commodi possimus 
+     suscipit ipsum dicta nam.
+  </p> -->
+
+  <h2>Custom-Class & Style Directive</h2>
+<div>
+  <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+    laudantium molestiae incidunt praesentium sed tenetur ab quam magni
+    perspiciatis minima reiciendis rerum cum quidem, commodi possimus suscipit
+    ipsum dicta nam.
+  </p>
+</div>
